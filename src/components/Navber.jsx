@@ -11,7 +11,7 @@ const Navber = () => {
   
   return (
     <nav className="navbar">
-      <h1>The Fundamental Blog</h1>
+      <h1>The Fundamental Blog(V3)</h1>
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/create" style={linkBtnStyle}>New Blog</Link>
