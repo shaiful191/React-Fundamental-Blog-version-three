@@ -2,7 +2,7 @@
 import React, { useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
-const Create = () => { 
+const Create = () => {
 
   const titleElement = useRef('');
   const bodyElement = useRef('');
@@ -37,14 +37,14 @@ const Create = () => {
       console.log("new blog created");
       setIsLoading(false);
       navigate("/");
-    });
+    }).catch(err => console.log(err));
   }
 
   return (
     <div className='create'>
       <h2>Add A New Blog</h2>
       <form onSubmit={handleSubmit}>
-     
+
         <label>Blog title:</label>
         <input
           type="text"

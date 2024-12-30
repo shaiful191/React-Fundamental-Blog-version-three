@@ -6,7 +6,6 @@ const Layout = ({ children }) => {
     <div className="app">
       <Navber />
       <div className="content">
-        {/* <OldHome2 />  */}
         {children}
       </div>
       <Footer />
