@@ -30,8 +30,8 @@
 }
 .content {
   max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+  margin: auto auto;
+  padding: 10px;
 }
 
 /* blog previews / list */
@@ -116,4 +116,22 @@
 .back-home{
   text-align: center;
   margin-top: 100px;
+}
+
+.primaryColor{
+  color: #f97316 !important;
+}
+.bgPrimaryColor{
+  background-color: #f97316 !important;
+  color: #fff !important;
+}
+
+.custom-btn {
+  border-color: #f97316 !important;  
+  color: #333 !important;        
+}
+
+.custom-btn:hover {
+  background-color: #f97316 !important;  
+  color: #fff !important;               
 }
