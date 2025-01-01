@@ -1,4 +1,4 @@
-# React Fundamental-Blog Project (Final Version)
+# React Fundamental-Blog Project (Version 3)
 
 ## Overview
 This is a simple React-based blogging platform that demonstrates CRUD operations. The application allows users to create, read, and delete blog posts. It uses **React Router** for navigation, **React Icons** for UI elements, and a custom **useFetch** hook to fetch data from a JSON server.
@@ -14,16 +14,12 @@ This is a simple React-based blogging platform that demonstrates CRUD operations
 
 The app demonstrates the implementation of various React concepts, including:
  
-- Navigating between pages using **React Router**
-- Working with dynamic routes and **URL Parameters**
-- Fetching data from APIs using **fetch API**
-- Creating reusable **Custom Hooks** like `useFetch`
-- Performing **CRUD operations** (Create, Read, Delete)
-- Managing side effects with the **useEffect Hook**
-- Using conditional rendering for dynamic UI updates
-- Building and handling **Forms** for user input using controlled inputs
-- Leveraging **React Icons** for UI enhancements
-- Using JSON Server(for testing APIs)
+- **useRef**: Used for accessing and interacting with DOM elements in React.
+- **Context API**: Implemented global state management in React applications with useContext and createContext.
+- **useReducer**: Utilized for complex state management in React, especially in larger applications.
+- **Asynchronous Programming**: Applied async/await for handling asynchronous tasks, such as API calls.
+- **Bootstrap**: Leveraged Bootstrap for responsive and mobile-first web development.
+
 
 
 ## Project Structure
@@ -42,6 +38,7 @@ The app demonstrates the implementation of various React concepts, including:
 │   │   └── useFetch.js
 │   ├── layouts/
 │   │   └── Layout.js
+|   |__ store
 │   ├── AppRoutes.js
 │   └── App.js
 |   |__ index.css
@@ -80,15 +77,17 @@ The project uses a responsive design with modern CSS styling. Fonts are imported
 
 ## Screenshots
 - Home Page
-![image](https://github.com/user-attachments/assets/a6df3e2a-70bc-4e2d-9af1-2e87fe0d45d2)
+![image](https://github.com/user-attachments/assets/12e8e4e0-61a8-4fb7-b997-91021c86f2fe)
+
 
 - Blog Details Page
-![image](https://github.com/user-attachments/assets/64b2563e-41ef-4e6e-bede-9697919501a3)
+![image](https://github.com/user-attachments/assets/af11f936-9d89-46dd-a1fe-3d8a2b26e348)
+
 ![image](https://github.com/user-attachments/assets/f242e096-1eb6-46bc-9ccb-824e8023f0d1)
 
 
 - Add Blog Page
-![image](https://github.com/user-attachments/assets/56b5a074-6027-4224-827f-76696dd9ff9e)
+![image](https://github.com/user-attachments/assets/a391b164-defa-44ce-bd64-1a73a6030367)
 
 
 - Not Found Page
